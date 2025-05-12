@@ -19,9 +19,9 @@ class MatkulDetail extends StatelessWidget {
       body: Center(
         child: Column(
           children: [
-            Text("NIM : " + mataKuliah),
-            Text("Nama : ${sks}"),
-            Text("Alamat : " + semester),
+            Text("Mata Kuliah : " + mataKuliah),
+            Text("SKS : ${sks}"),
+            Text("Semester : " + semester),
           ],
         ),
       ),
